@@ -17,34 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/a1', function () {
-    return view('aa.a1');
+Route::get('/b5', function () {
+    return view('bb.b5');
 });
 
-Route::get('/a2', function () {
-    return view('aa.a2');
-});
-
-Route::get('/a3', function () {
-    return view('aa.a3');
-});
-
-Route::get('/a4', function () {
-    return view('aa.a4');
-});
-
-Route::get('/b1', function () {
-    return view('bb.b1');
-});
-
-Route::get('/b2', function () {
-    return view('bb.b2');
-});
-
-Route::get('/b3', function () {
-    return view('bb.b3');
-});
-
-Route::get('/b4', function () {
-    return view('bb.b4');
+Route::get('/b6', function () {
+    return view('bb.b6');
 });
