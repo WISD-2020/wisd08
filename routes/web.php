@@ -25,6 +25,14 @@ Route::get('/a2', function () {
     return view('aa.a2');
 });
 
+Route::get('/a3', function () {
+    return view('aa.a3');
+});
+
+Route::get('/a4', function () {
+    return view('aa.a4');
+});
+
 Route::get('/b1', function () {
     return view('bb.b1');
 });
