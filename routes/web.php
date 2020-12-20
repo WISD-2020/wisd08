@@ -32,3 +32,11 @@ Route::get('/b1', function () {
 Route::get('/b2', function () {
     return view('bb.b2');
 });
+
+Route::get('/b3', function () {
+    return view('bb.b3');
+});
+
+Route::get('/b4', function () {
+    return view('bb.b4');
+});
