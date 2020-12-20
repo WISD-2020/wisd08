@@ -24,3 +24,12 @@ Route::get('/b5', function () {
 Route::get('/b6', function () {
     return view('bb.b6');
 });
+
+Route::get('/a5', function () {
+    return view('aa.a5');
+});
+
+Route::get('/a6', function () {
+    return view('aa.a6');
+});
+
